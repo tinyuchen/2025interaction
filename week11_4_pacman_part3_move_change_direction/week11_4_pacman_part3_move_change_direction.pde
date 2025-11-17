@@ -17,8 +17,9 @@ void draw(){
   m += dm;
 }
 void keyPressed(){
-  if(keyCode==LEFT){ dx = -1; dy = 0; dir = 2;}  // dir:2 向左 PI
-  if(keyCode==RIGHT){ dx = +1; dy = 0; dir = 0;}  // dir:0 向右 PI
-  if(keyCode==UP){ dx = 0; dy = -1; dir = 3;}  // dir:3 向上PI
-  if(keyCode==DOWN){ dx = 0; dy = +1; dir = 1;}  // dir:1 向下 PI
+  if(keyCode==LEFT){dx = -1; dy = 0; dir = 2;}  // dir:2 向左 PI
+  if(keyCode==RIGHT){dx = +1; dy = 0; dir = 0;}  // dir:0 向右 0 度
+  if(keyCode==UP){dx = 0; dy = -1; dir = 3;}  // dir:3 向上 PI*1.5
+  if(keyCode==DOWN){dx = 0; dy = +1; dir = 1;}  // dir:1 向下 PI/2
 }
+
